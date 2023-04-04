@@ -68,7 +68,7 @@ export default function SingInForm() {
         <Alert.Heading>Successful!</Alert.Heading>
         <div className="d-flex justify-content-end">
           <Button onClick={() => setShow(false)} variant="outline-success">
-            Date Alert
+            Data Alert
           </Button>
         </div>
       </Alert>
