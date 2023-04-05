@@ -87,18 +87,21 @@ export default function SingInForm() {
           <div className={Styles.bar} style={{width: `${calculateProgress()}%`}}></div>
         </div>
 
+        // Fullname
         <div className={Styles.formGroup}>
           <label htmlFor="">Full Name</label>
           <Form.Control type="text" placeholder="Enter your name" 
             name='fullName' value={data.fullName} onChange={handleChange}/>
         </div>
 
+        // E-mail
         <div className={Styles.formGroup}>
           <label htmlFor="">E-mail</label>
           <Form.Control type="text" placeholder="Enter your e-mail" 
           name="email" value={data.email} onChange={handleChange}/>
         </div>
 
+       // Civil status
         <div className={Styles.formGroup}>
           <label htmlFor="">Civil Status</label>
           <Form.Select aria-label="Default select example" name="status" 
